@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+title: Edmund Humenberger - My struggle to Break Open-Source!
+description: This is an archive of my hate-speech that I tweeted as @pir_AT
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+

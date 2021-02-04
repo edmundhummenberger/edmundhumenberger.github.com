@@ -1,0 +1,42 @@
+# Edmund Humenberger (@pir_at) aka @ico_TC
+
+This is an extract of every tweet that Edmund Humenberger
+tweeted under the account @pir_AT on twitter since Feb 2018.
+
+(RT's have been filtered to protect some nice people's reputation by mere association with this
+toxic man)!
+
+## Linux TM
+
+Back in the 1990's Edmund attempted to trademark Linux in Germany. He issued a license agreement
+to the owner of linux.de beginning a legal dispute, that ended in Edmund being forced to hand over
+all rights to the Linux community.
+
+The final "public-record" of this dispute can be found below in the following archive.
+
+<https://www.fitug.de/debate/9709/msg00019.html>
+
+[Screenshot found on twitter](/assets/img/fitug.jpg):
+
+As with the trail of other legal disputes Edmund Humenberger has initiated, even the Linux trademark
+dispute is very hard to trace (especially in connection with his own name) due to aggressive
+confidentiality clauses that he has forced good engineers into during settlement.
+
+# The Racist Tweets!
+
+He is also known as @ico_TC on twitter.
+
+---
+![Edmund Humenberger - @ico_TC](/assets/img/edmund.png)
+![Edmund Humenberger - @pir_AT](/assets/img/handle.jpg)
+![Edmund Humenberger - @pir_AT](/assets/img/connection.png)
+---
+
+{% for t in tweets %}
+### {{ t.handle }} - {{ t.date }}
+{{ '{% raw %}' }}
+{{ t.text }}
+{{ '{% endraw %}' }}
+---
+{% endfor %}
+
